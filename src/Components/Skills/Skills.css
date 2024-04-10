@@ -1,0 +1,75 @@
+.Skills{
+    display: flex;
+    flex-direction: column;
+    padding:80px 60px;
+    align-items: center;
+}
+
+.Skills h1{
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items:start;
+    justify-content: start;
+    gap: 80px;
+    margin:80px 170 px;
+    padding: 80px;
+}
+
+
+
+
+.Skills h2{
+    font-size: 40px;
+    font-weight: 600;
+    background: linear-gradient(270deg,#f4e900 50%, #60b6f1 100.28%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.skils-title{
+    position: relative;
+}
+
+.skils-title img{
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
+    z-index: -1;
+}
+
+.titles{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items:start;
+    gap:20px;
+    padding:30px 10px;
+}
+
+
+
+.title{
+    padding:50px 20px;
+  
+}
+
+.title li{
+    padding:10px 15px;
+    align-items:start;
+    justify-content: start;
+    font-size: 28px;
+    font-weight: 50px;
+    gap:20px;
+}
+.title li:hover{
+    transform:scale(1.12);
+    transition: 0.3s;
+    color:#d3f400
+}

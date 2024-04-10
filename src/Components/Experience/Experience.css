@@ -1,0 +1,122 @@
+.Experiences{
+    display: flex;
+    flex-direction: column;
+    padding:100px 60px;
+    align-items: center;
+}
+
+.img{
+    position: relative;
+}
+.logo3{
+    position:absolute;
+    bottom:40px;
+    right:0;
+    z-index:-1;
+    width:130px
+}
+.logo4{
+    position:absolute;
+    bottom:20px;
+    left:-20px;
+    z-index:-1;
+    width:120px
+}
+
+.logo5{
+    position:absolute;
+    bottom:0px;
+    left:0;
+    z-index:-1;
+    width:100px
+}
+
+
+
+.Experience{
+    display: flex;
+    flex-direction: column;
+    align-items:stretch;
+    justify-content: space-between;
+    gap: 80px;
+    margin:80px 170 px;
+    padding: 80px;
+
+}
+
+.title{
+    padding: 40px 30px;
+    font-size: 80px;
+    font-weight: 600;
+    align-items:stretch;
+    justify-content: space-between;
+}
+
+.title1{
+    padding: 10px 0px;
+    font-size: 60px;
+    font-weight: 600;
+    align-items:center;
+    justify-content: center;
+    /* color:#d3f400 */
+
+}
+
+.Each h1{
+    font-size: 40px;
+    font-weight: 600;
+    background: linear-gradient(270deg,#f4e900 50%, #60b6f1 100.28%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Each hr{
+    width: 100%;
+    border: 0;
+    height: 1px;
+    background-color: #d3f400; 
+}
+
+
+.Each p{
+    text-align: start;
+    font-size: 20px;
+  }
+
+  .Each p:hover{
+    transform:scale(1.12);
+    transition: 0.3s;
+    color:#d3f400
+}
+
+
+.Each{
+    display: flex;
+    flex-direction: column;
+    align-items:stretch;
+    justify-content: space-between;
+    gap: 36px;
+}
+
+
+
+.skills{
+    padding:10px
+}
+
+.skills li{
+    text-align: start;
+    font-size: 20px; 
+    padding: 10px;
+}
+
+.skills li:hover{
+    transform:scale(1.12);
+    transition: 0.3s;
+    color:#d3f400
+}
+
+.align-right {
+    text-align: right;
+  }
